@@ -101,39 +101,37 @@
         </div>
     </section>
     <section class="tabs-section">
-        <div  class="container">
-            <div class="tabs">
-                <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
-                <label for="tab-btn-1"> tab 1</label>
-                <input type="radio" name="tab-btn" id="tab-btn-2" value="">
-                <label for="tab-btn-2"> tab 2</label>
-                <input type="radio" name="tab-btn" id="tab-btn-3" value="">
-                <label for="tab-btn-3"> tab 3</label>
-        
-                <div id="content-1">
-                    <div class="content-section">
-                        <h2 class="content-section__title">Tabs with soft transitioning effect.</h2>
-                            <p class="content-section__discr">
+        <div  class="tabs__container">
+            <div class="tabs__list">
+                <div class="tabs__items tabs__items--active">
+                    <p class="tabs__item">TAB 1</p>
+                </div>
+                <div class="tabs__items">
+                    <p class="tabs__item">TAB 2</p>
+                </div>
+                <div class="tabs__items">
+                    <p class="tabs__item">TAB 3</p>
+                </div>
+            </div>
+                <div class="tabs__content">
+                    <div class="tabs-content__section">
+                        <h2 class="tabs-content-section__title">Tabs with soft transitioning effect.</h2>
+                            <p class="tabs-content-section__discr">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
                                 justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                                 penatibus et magnis dis parturient montes.
-                            </p>
-                            <p class="content-section__discr2">
+                                
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                                 bibendum laoreet.
                             </p>
                         <button class="button">Download</button>
+                    </div>
+                    <div class="tabs-content-section__image">
                         <img class="content__image" src="./assets/images/TabsImage.jpg" alt="Statue of Liberty Image">
                     </div>
                 </div>
-                <div id="content-2">
-                Содержимое 2...
-                </div>
-                <div id="content-3">
-                Содержимое 3...
-                </div>
-            </div>
+            
         </div>
     </section>
     
