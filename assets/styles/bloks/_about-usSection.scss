@@ -90,19 +90,22 @@ margin-bottom: 100px;
 
 .skill{
 
+    &-list__item{
+        display: flex;
+        flex-direction: column;
+    }
+
     &-item__image
     {
         margin: 0 auto;
-        padding-left: 60px;
         margin-bottom: 40px;
 
         @include mediaTablet{
             margin-bottom: 10px;
-            padding-left: 42px;
         }
         
         @include mediaMobile{
-            padding-left: 32px;
+            padding-left: 0;
             margin-bottom: 5px;
             margin: 0 auto;
         }

@@ -142,22 +142,30 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+.skill-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .skill-item__image {
   margin: 0 auto;
-  padding-left: 60px;
   margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1200px) {
   .skill-item__image {
     margin-bottom: 10px;
-    padding-left: 42px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .skill-item__image {
-    padding-left: 32px;
+    padding-left: 0;
     margin-bottom: 5px;
     margin: 0 auto;
   }
@@ -233,6 +241,7 @@ h1, h2, h3, h4, h5, h6, p {
         -ms-flex-pack: center;
             justify-content: center;
     padding-bottom: 50px;
+    padding: 0;
   }
 }
 
@@ -392,10 +401,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media screen and (max-width: 1023px) {
   .axit-content__btn {
-    margin-bottom: 50px;
     width: 280px;
-    left: 50%;
-    right: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
   }
 }
 
@@ -553,6 +561,12 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 100px;
 }
 
+@media screen and (max-width: 1023px) {
+  .contact-us--container {
+    padding-top: 60px;
+  }
+}
+
 .contact-us__title {
   text-align: center;
   text-transform: uppercase;
@@ -609,6 +623,15 @@ h1, h2, h3, h4, h5, h6, p {
           justify-content: space-between;
 }
 
+@media screen and (max-width: 1023px) {
+  .contact-us__inputs-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .contact-us__input {
   width: 570px;
   padding-bottom: 15px;
@@ -626,7 +649,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media screen and (max-width: 1200px) {
   .contact-us__input {
-    width: 470px;
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contact-us__input {
+    width: 100%;
   }
 }
 
@@ -662,6 +691,13 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-width: 1200px) {
   .contact-us__message-input {
     width: 470px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contact-us__message-input {
+    margin-bottom: 50px;
+    width: 100%;
   }
 }
 
@@ -704,6 +740,22 @@ h1, h2, h3, h4, h5, h6, p {
     width: 320px;
     height: 60px;
     margin-left: 320px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contact-us__btn {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 280px;
   }
 }
 
@@ -1013,6 +1065,18 @@ h1, h2, h3, h4, h5, h6, p {
 .footer__link-icon {
   text-decoration: none;
   margin-right: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__link-icon {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__link-icon-img {
+    width: 25px;
+  }
 }
 
 .footer__themes {
@@ -1336,11 +1400,20 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media screen and (max-width: 1023px) {
   .pricing__lists {
-    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1567,10 +1640,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media screen and (max-width: 1023px) {
   .tabs__content {
-    width: 270px;
+    width: 100%;
     margin: 0;
     padding: 30px 15px;
-    height: 450px;
+    height: 100%;
   }
 }
 
@@ -1590,6 +1663,13 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-width: 1023px) {
   .tabs-content__section {
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -1691,6 +1771,7 @@ h1, h2, h3, h4, h5, h6, p {
   .button {
     width: 240px;
     height: 50px;
+    margin: 0 auto;
   }
 }
 

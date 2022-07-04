@@ -13,6 +13,7 @@
         flex-direction: column;
         @include center;
         padding-bottom: 50px;
+        padding: 0;
     }
 }
 
@@ -142,10 +143,9 @@
     }
 
     @include mediaMobile{
-        margin-bottom: 50px;
         width: 280px;
-        left: 50%;
-        right: 50%;
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
 }
 

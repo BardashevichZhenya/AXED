@@ -16,6 +16,20 @@
     &__link-icon{
         text-decoration: none;
         margin-right: 30px;
+
+        @include mediaMobile{
+            margin-right: 10px;
+        }
+
+        &-img{
+            
+
+            @include mediaMobile{
+                width: 25px;
+            }
+        }
+
+
     }
 
     &__themes{
