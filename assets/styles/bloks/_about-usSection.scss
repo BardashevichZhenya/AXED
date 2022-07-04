@@ -1,0 +1,153 @@
+.about-us{
+&--container
+{
+padding: 60px 15px;
+
+@include mediaTablet{
+    padding: 50px 15px;
+}
+
+@include mediaMobile{
+    padding: 15px;
+}
+
+}
+
+&__main-title
+{
+text-align: center;
+font-family:$fontRealway;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+margin-bottom: 70px;
+
+@include mediaTablet{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+@include mediaMobile{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+}
+
+&--separator{
+    margin-bottom: 50px;
+
+    @include mediaTablet{
+        margin-bottom: 30px;
+    }
+    
+    @include mediaMobile{
+        width: 130px;
+        margin-bottom: 20px;
+    }
+}
+
+&__secondary-title
+{
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #86878B;
+margin-bottom: 100px;
+
+@include mediaTablet{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 65px;
+}
+
+@include mediaMobile{
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+}
+
+&__skill-list
+{
+    margin: 0 auto ;
+    list-style-type: none;
+    display: flex;
+
+    @include mediaTablet{
+
+    }
+    
+    @include mediaMobile{
+        display: block;
+    }
+}
+
+}
+
+.skill{
+
+    &-item__image
+    {
+        margin: 0 auto;
+        padding-left: 60px;
+        margin-bottom: 40px;
+
+        @include mediaTablet{
+            margin-bottom: 10px;
+            padding-left: 42px;
+        }
+        
+        @include mediaMobile{
+            padding-left: 32px;
+            margin-bottom: 5px;
+            margin: 0 auto;
+        }
+    }
+
+    &-item__title
+    {
+    font-family: $fontOpenSans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 30px;
+
+    @include mediaTablet{
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    
+    @include mediaMobile{
+        margin-bottom: 20px;
+    }
+    }
+
+    &-item__dicr
+    {
+    font-family: $fontRealway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    @include mediaTablet{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    @include mediaMobile{
+    
+    }
+    }
+
+}
+
+
+
+

@@ -4,75 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork 3</title>
+    <title>AXIT</title>
     <link rel="stylesheet" href="./libs/normalize.css">
     <link rel="stylesheet" href="./assets/styles/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="container header--container">
+            <a class="header__logo" href="">
+                <img class="header__logo-img" src="./assets/images/logo-axit.png" alt="">
+            </a>
+
+            <button class="header__burger-btn">
+                <svg class="header__burger-icon" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z" fill="white"/>
+                </svg>
+            </button>
+
+            <nav class="header__nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Features</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">About</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Pricing</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Reviews</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="" class="header-nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
     <section class="axit">
-            <header class="axit__header">
-                <div class="header__section">
-                    <div class="axit__logo">
-                        <img class="axit__logo-img" src="./assets/images/logo-axit.png" alt="">
-                    </div>
-                    <nav class="axit__nav">
-                        <ul class="axit-nav__list">
-                            <li class="axit-nav__item">
-                                <a href="" class="axit-nav-link">Features</a>
-                            </li>
-                            <li class="axit-nav__item">
-                                <a href="" class="axit-nav-link">About</a>
-                            </li>
-                            <li class="axit-nav__item">
-                                <a href="" class="axit-nav-link">Pricing</a>
-                            </li>
-                            <li class="axit-nav__item">
-                                <a href="" class="axit-nav-link">Reviews</a>
-                            </li>
-                            <li class="axit-nav__item">
-                                <a href="" class="axit-nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-            <div class="axit__content-section">
-                <div class="axit__shadow"></div>
-            <div class="axit__container">
+        <div class="container container--axit">
                 <div class="axit__content">
                     <div class="axit-content__loqo">
                         <img class="axit-content__loqo-img" src="./assets/images/logo-section.png" alt="">
                     </div>
-                    <h1 class="axit-content__title">MODERN AXURE TEMPLATE </h1>
-                    <h1 class="axit-content__title">FOR BEAUTIFUL</h1>
-                    <h1 class="axit-content__title">PROTOTYPES</h1>
-                    <div class="axit-content__separator"></div>
-                    <h5 class="axit-content__discr">Lorem ipsum dolor sit amet,</h5>
-                    <h5 class="axit-content__discr">consectetur adipiscing elit</h5>
+                    <h1 class="axit-content__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                    <div class="separator axit--separator"></div>
+                    <h5 class="axit-content__descr">Lorem ipsum dolor sit amet,consectetur adipiscing elit</h5>
                     <button class="axit-content__btn">Download</button>
                 </div>
-                <div class="axit__input">
-                    <h4 class="axit-input__title">Try Your <span class="free">FREE</span> Trial Today</h4>
-                    <p class="input">
-                        <input class="input__section" type="text" placeholder="Name">
-                    </p>
-                    <p class="input">
-                        <input class="input__section" type="text" placeholder="Email">
-                    </p>
-                    <p class="input">
-                        <input class="input__section" type="text" placeholder="Password">
-                    </p>
-                    <button class="input__btn">Get Started</button>
-                </div>
-            </div>
+                <form>
+                    <div class="axit__input">
+                            <h4 class="axit-input__title">Try Your <span class="free">FREE</span> Trial Today</h4>
+                            <p class="input">
+                                <input class="input__section" type="text" placeholder="Name">
+                            </p>
+                            <p class="input">
+                                <input class="input__section" type="email" placeholder="Email">
+                            </p>
+                            <p class="input">
+                                <input class="input__section" type="password" placeholder="Password">
+                            </p>    
+                            <button class="input__btn">Get Started</button>
+                    </div>
+                </form>
         </div>
     </section>
+    
     <section class="media">
-        <div class="media__container">
-            <div class="media-text">  
-                <h4 class="media-text__title">Social Media</h4>
-                <h5 class="media-text__discr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5> 
-                <h5 class="media-text__discr"> Aenean euismod bibendum laoreet.</h5>
+        <div class="container media--container">
+            <div class="media__list">  
+                <h4 class="media-list__title">Social Media</h4>
+                <h5 class="media-list__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</h5>
             </div>
             <div class="media__icons">
                 <a href="" class="media__icon">
@@ -100,8 +104,9 @@
             </div>
         </div>
     </section>
+
     <section class="tabs-section">
-        <div  class="tabs__container">
+        <div  class="container tabs--container">
             <div class="tabs__list">
                 <div class="tabs__items tabs__items--active">
                     <p class="tabs__item">TAB 1</p>
@@ -116,13 +121,13 @@
                 <div class="tabs__content">
                     <div class="tabs-content__section">
                         <h2 class="tabs-content-section__title">Tabs with soft transitioning effect.</h2>
-                            <p class="tabs-content-section__discr">
+                            <p class="tabs-content-section__descr">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
                                 justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                                 penatibus et magnis dis parturient montes.
-                                
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                            </p>
+                            <p class="tabs-content-section__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                                 bibendum laoreet.
                             </p>
                         <button class="button">Download</button>
@@ -135,15 +140,14 @@
         </div>
     </section>
     
-    
     <section class="about-us">
-        <div class="container">
+        <div class="container about-us--container">
             <h2 class="about-us__main-title">WHY THIS IS AWESOME</h2>
-            <div class="separator"></div>
+            <div class="separator about-us--separator"></div>
             <h5 class="about-us__secondary-title" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-            <ul class="about-us__skills-list">
+            <ul class="about-us__skill-list">
             <li class="skill-list__item">
-                <div class="skill-item__image--wrapper">
+                <div class="skill-item__image">
                     <img class="skill-item__image"  src="/assets/images/about_icon_1 (1).png" alt="skill-item__image1">
                 </div>
                 <h4 class="skill-item__title">
@@ -154,51 +158,51 @@
 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
                 </p>
             </li>
-            <li class="skill-list__item1">
-                <div class="skill-item__image--wrapper1">
-                    <img class="skill-item__image1"  src="./assets/images/about_icon_2.png" alt="skill-item__image2">
+            <li class="skill-list__item">
+                <div class="skill-item__image">
+                    <img class="skill-item__image"  src="./assets/images/about_icon_2.png" alt="skill-item__image2">
                 </div>
-                <h4 class="skill-item__title1">
+                <h4 class="skill-item__title">
                     Thoughtful Design
                 </h4>
-                <p class="skill-item__dicr1">
+                <p class="skill-item__dicr">
                 Lorem ipsum dolor sit amet, consectetur adipiscing 
 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
                 </p>
             </li>
-            <li class="skill-list__item2">
-                <div class="skill-item__image--wrapper2">
-                    <img class="skill-item__image2"  src="./assets/images/about_icon_3.png" alt="skill-item__image3">
+            <li class="skill-list__item">
+                <div class="skill-item__image">
+                    <img class="skill-item__image"  src="./assets/images/about_icon_3.png" alt="skill-item__image3">
                 </div>
-                <h4 class="skill-item__title2">
+                <h4 class="skill-item__title">
                     Thoughtful Design
                 </h4>
-                <p class="skill-item__dicr2">
+                <p class="skill-item__dicr">
                 Lorem ipsum dolor sit amet, consectetur adipiscing 
 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
                 </p>
             </li>
             </ul>
         </div>
-
     </section>
+
     <section class="pricing">
-        <div class="pricing__container">
+        <div class="container pricing--container">
             <h2 class="pricing__main-title">pricing options</h2>
-        <div class="separator"></div>
-        <h5 class="pricing__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <div class="separator pricing--separator"></div>
+        <h5 class="pricing__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
         <div class="pricing__lists">
             <div class="pricing__item ">
                 <div class="pricing-list__content">
                     <p class="pricing-list__content-title">Basic</p>
                     <p class="pricing-list__content-price">$10</p>
                     <p class="pricing-list__content-freeToLife">Free for life</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
                 </div>
             </div>
             <div class="pricing__item ">
@@ -206,12 +210,12 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
                     <p class="pricing-list__content-title">Optima</p>
                     <p class="pricing-list__content-price">$20</p>
                     <p class="pricing-list__content-freeToLife">Free for life</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
                 </div>
             </div>
             <div class="pricing__item  ">
@@ -219,123 +223,138 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
                     <p class="pricing-list__content-title">Pro</p>
                     <p class="pricing-list__content-price">$30</p>
                     <p class="pricing-list__content-freeToLife">Free for life</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
-                    <p class="pricing-list__content-discription pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
+                    <p class="pricing-list__content-description pricing--wrapper">1 gb of space</p>
                 </div>
             </div>
         </div>
         </div>
         
     </section>
+
     <section class="customers">
-        <div class="customers__container">
+        <div class="container customers--container">
             <h2 class="customers__title">what our customers are saying</h2>
-            <div class="separator"></div>
-            <h5 class="customers__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-            <div class="customers__rectangles">
-                <div class="customers__rectangle">
-                    <p class="rectangle">Lorem ipsum dolor sit amet, 
+            <div class="separator customers--separator"></div>
+            <h5 class="customers__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <div class="customers__testimonials">
+                <div class="customers__testimonial--none">
+                    <div class="customers__messages">
+                        <p class="customers__message">Lorem ipsum dolor sit amet, 
                         consectetur adipisicing elit. Doloribus 
                         accusamus expedita repellat similique 
                         odio aspernatur ex, architecto eaque 
                         quo suscipit.</p>
-                        <div class="polygon"></div>
-                        <img class="customer__image" src="./assets/images/Davis.png" alt="Davis_image">
-                        <h4 class="customer__name">Davis Rhiel Madsen</h4>
-                        <h5 class="customer__job-title">Manager</h5>
+                    </div>
+                        <div class="customers__polygon"></div>
+                        <img class="customers__image" src="./assets/images/Davis.png" alt="Davis_image">
+                        <h4 class="customers__name">Davis Rhiel Madsen</h4>
+                        <h5 class="customers__job-title">Manager</h5>
                 </div>
-                <div class="customers__rectangle">
-                    <p class="rectangle">Lorem ipsum dolor sit amet, 
+                <div class="customers__testimonial">
+                    <div class="customers__messages">
+                        <p class="customers__message">Lorem ipsum dolor sit amet, 
                         consectetur adipisicing elit. Doloribus 
                         accusamus expedita repellat similique 
                         odio aspernatur ex, architecto eaque 
                         quo suscipit.</p>
-                        <div class="polygon"></div>
-                        <img class="customer__image" src="./assets/images/Jaydon.png" alt="Jaydon_image">
-                        <h4 class="customer__name">Jaydon Rosser</h4>
-                        <h5 class="customer__job-title">Manager</h5>
+                    </div>
+                        <div class="customers__polygon"></div>
+                        <img class="customers__image" src="./assets/images/Jaydon.png" alt="Jaydon_image">
+                        <h4 class="customers__name">Jaydon Rosser</h4>
+                        <h5 class="customers__job-title">Manager</h5>
                 </div>
-                <div class="customers__rectangle">
-                    <p class="rectangle">Lorem ipsum dolor sit amet, 
+                <div class="customers__testimonial--none">
+                    <div class="customers__messages">
+                        <p class="customers__message">Lorem ipsum dolor sit amet, 
                         consectetur adipisicing elit. Doloribus 
                         accusamus expedita repellat similique 
                         odio aspernatur ex, architecto eaque 
                         quo suscipit.</p>
-                        <div class="polygon"></div>
-                        <img class="customer__image" src="./assets/images/Cooper.png" alt="Cooper_image">
-                        <h4 class="customer__name">Cooper Dorwart</h4>
-                        <h5 class="customer__job-title">Manager</h5>
+                    </div>
+                        <div class="customers__polygon"></div>
+                        <img class="customers__image" src="./assets/images/Cooper.png" alt="Cooper_image">
+                        <h4 class="customers__name">Cooper Dorwart</h4>
+                        <h5 class="customers__job-title">Manager</h5>
                         
                 </div>
             </div>
         </div>
     </section>
+
     <section class="design">
-        <div class="shadow"></div>
-        <div class="design__container">
+        <div class="container design--container">
             <h2 class="design__title">STYLISH AXURE DESIGN</h2>
-            <div class="design__seporator"></div>
-            <h5 class="design__discr">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+            <div class="separator design--separator"></div>
+            <h5 class="design__descr">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
             <button class="design__button">Download</button>
         </div>
     </section>
+
     <section class="contact-us">
-        <div class="contact-us__container">
+        <div class="container contact-us--container">
             <h2 class="contact-us__title">contact us</h2>
-            <div class="contact-us__seporator"></div>
-            <h5 class="contact-us__discr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-            <div class="contact-us__inputs">
-                <div class="c">
-                    <p class="contact-us__input">
-                        <input class="inputs" type="text" placeholder="Name">
-                    </p>
-                    <p class="contact-us__input">
-                        <input class="inputs" type="text" placeholder="Email">
-                    </p>
-                    <p class="contact-us__input">
-                        <input class="inputs" type="text" placeholder="Password">
-                    </p>
+            <div class="separator contact-us--separator"></div>
+            <h5 class="contact-us__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <form>
+                <div class="contact-us__inputs-list">
+                        <div class="contact-us__data">
+                            <form action="">
+                                <p class="contact-us__inputs">
+                                    <input class="contact-us__input" type="text" placeholder="Name">
+                                </p>
+                                <p class="contact-us__inputs">
+                                    <input class="contact-us__input" type="email" placeholder="Email">
+                                </p>
+                                <p class="contact-us__inputs">
+                                    <input class="contact-us__input" type="password" placeholder="Password">
+                                </p>
+                            </form>
+                        </div>
+                        <div class="contact-us__message-list">
+                            <form action="">
+                                <p class="contact-us__message">
+                                    <input class="contact-us__message-input" type="text" placeholder="Message">
+                                </p>
+                            </form>
+                        </div>
                 </div>
-                <div class="contact-us__message">
-                    <p class="message">
-                        <input class="message__text" type="text" placeholder="Message">
-                    </p>
-                </div>
-            </div>
+            </form>
             <button class="contact-us__btn">Send Message</button>
         </div>
+    </section>
+
         <footer class="footer">
-            <div class="footer__container">
+            <div class="container footer--container">
                 <div class="footer__icons">
-                    <a href="" class="link__icon">
-                        <img src="./assets/images/facebook_icon.png" alt="" class="media__icon-img">
+                    <a href="" class="footer__link-icon">
+                        <img src="./assets/images/facebook_icon.png" alt="" class="footer__link-icon-img">
                     </a>
-                    <a href="" class="link__icon">
-                        <img src="./assets/images/twitter_icon.png" alt="" class="media__icon-img">
+                    <a href="" class="footer__link-icon">
+                        <img src="./assets/images/twitter_icon.png" alt="" class="footer__link-icon-img">
                     </a>
-                    <a href="" class="link__icon">
-                        <img src="./assets/images/linkedin_icon.png" alt="" class="media__icon-img">
+                    <a href="" class="footer__link-icon">
+                        <img src="./assets/images/linkedin_icon.png" alt="" class="footer__link-icon-img">
                     </a>
-                    <a href="" class="link__icon">
-                        <img src="./assets/images/pinterest_icon.png" alt="" class="media__icon-img">
+                    <a href="" class="footer__link-icon">
+                        <img src="./assets/images/pinterest_icon.png" alt="" class="footer__link-icon-img">
                     </a>
-                    <a href="" class="link__icon">
-                        <img src="./assets/images/instagram_icon.png" alt="" class="media__icon-img">
+                    <a href="" class="footer__link-icon">
+                        <img src="./assets/images/instagram_icon.png" alt="" class="footer__link-icon-img">
                     </a>
-                    <a href="" class="link__icon">
-                        <img src="./assets/images/github_icon.png" alt="" class="media__icon-img">
+                    <a href="" class="footer__link-icon">
+                        <img src="./assets/images/github_icon.png" alt="" class="footer__link-icon-img">
                     </a>
-                    <a href="" class="link__icon">
-                        <img src="./assets/images/rss_icon.png" alt="" class="media__icon-img">
+                    <a href="" class="footer__link-icon">
+                        <img src="./assets/images/rss_icon.png" alt="" class="footer__link-icon-img">
                     </a>
                 </div>
-                <h5 class="axure__themes">© 2015 Axure Themes</h5>
+                <h5 class="footer__themes">© 2015 Axure Themes</h5>
             </div>
         </footer>
-    </section>
 </body>
 </html>
